@@ -27,3 +27,6 @@
     (org-babel-load-file (expand-file-name "starter-kit.org" starter-kit-dir))))
 
 ;;; init.el ends here
+(global-set-key "\C-x\C-m" 'execute-extended-command)
+(global-set-key (kbd "<f5>") 'grep-find)
+
