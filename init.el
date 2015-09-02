@@ -29,4 +29,4 @@
 ;;; init.el ends here
 (global-set-key "\C-x\C-m" 'execute-extended-command)
 (global-set-key (kbd "<f5>") 'grep-find)
-
+(global-set-key (kbd "<f4>") 'shell)
